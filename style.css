@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-image: linear-gradient(to bottom left, rgb(255, 102, 0), #800000);
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+/* Solid border */
+  hr.solid {
+    border-top: 2px solid #000000;
+}
+
+img {
+    width: 94%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container-schedule {
+    display: grid;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 4px;
+    text-align: center;
+}
+
+/* For mobile phones:*/
+.grid-container-schedule {
+    grid-template-columns: 20% 75% auto;
+}
+
+@media only screen and (min-width: 1068px) {
+
+    /*   For desktop:*/
+    .grid-container-schedule {
+        grid-template-columns: 75px 500px 450px;
+    }
+
+    .cards {
+        padding: 25px 25px 25px 75px;
+    }
+
+    img {
+        width: 70%;
+        height: auto;
+    }
+
+    .cards-2 {
+        max-width: 800;
+        margin: auto auto;
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .fa {
+        padding: 15px;
+        font-size: 25px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+    }
+}
+
+.card {
+
+    background-color: none;
+}
+
+.cards {
+    max-width: 800;
+    margin: auto auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.cards-2 {
+    max-width: 800;
+    margin: auto auto;
+    display: grid;
+    grid-gap: 2rem;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-vk {
+    background: #4C75A3;
+    color: white;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #4d0000, #cc0000);
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
