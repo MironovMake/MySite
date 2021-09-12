@@ -1,0 +1,60 @@
+@import "../styles/genegalStuff";
+@import "../styles/nav";
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  margin-left: 15%;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  height: 10vh;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2rem;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.panel {
+  font-size: 1.8rem;
+}
+table {
+  margin-left: 15%;
+  width: 70%;
+}
+th,
+td {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+@import "formulsMobile";

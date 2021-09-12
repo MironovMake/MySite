@@ -1,0 +1,28 @@
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+
+  .grid-container-schedule {
+    grid-template-columns: 20% 75% auto;
+  }
+
+  .cards {
+    padding: 13px;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cards-2 {
+    max-width: 500;
+    margin: auto auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  footer {
+    height: 35vh;
+  }
+}
