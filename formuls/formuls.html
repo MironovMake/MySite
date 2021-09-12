@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Physic Plan</title>
+    <link rel="stylesheet" type="text/css" href="furmulsStyle.css" />
+    <link rel="icon" href="../img/icons/SiteIcon.svg" />
+    <script src="https://fonts.googleapis.com/css2?family=Roboto&display=swap"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </head>
+
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Формулы</h1>
+        <ul>
+          <li><a href="../index.html">Расписание</a></li>
+          <li><a href="">Формулы</a></li>
+          <li><a href="../aboutMe/index.html">Обо мне</a></li>
+        </ul>
+      </nav>
+    </header>
+    <button class="accordion">Кинематика</button>
+    <div class="panel">
+      <!-- $$ x = \color{blue}{x_0}+v_0t+{at^2\over2}$$ -->
+      <table>
+        <div>
+          <tr>
+            <td><p>Средняя скорость на всем пути [м/с]</p></td>
+            <td>$$v_{cp}={S_1+S_2+...+S_N\over{t_1+t_2+...+t_N}} $$</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Координаты точки при движении вдоль оси ОХ [м]</p>
+            </td>
+            <td>$$ x = x_0+v_0t+{at^2\over2}$$</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Расчет пути за определенное время [м]</p>
+            </td>
+            <td>$$ S = v_0t+{at^2\over2}$$</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Изменение скорости при прямолинейном движении [м]</p>
+            </td>
+            <td>$$ v = v_0+at$$</td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td>
+              <p>Угловая скорость [рад/c]</p>
+            </td>
+            <td>$$\omega={\varphi \over t}$$</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Линейная скорость [м/с]</p>
+            </td>
+            <td>$$v=\omega R$$</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Период вращения [с]</p>
+            </td>
+            <td>$$ T={2\pi\over \omega}$$</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Частота [Гц]</p>
+            </td>
+            <td>$$ \nu={1\over T}$$</td>
+          </tr>
+          <tr>
+            <td>
+              <p>Центрстремительное ускорение [м/с<sup>2</sup>]</p>
+            </td>
+            <td>$$ a_ц={v^2\over R}=\omega^2 R$$</td>
+          </tr>
+        </div>
+      </table>
+    </div>
+    <button class="accordion">Динамика</button>
+    <div class="panel">
+      <table>
+        <tr>
+          <td>
+            <p>Сила всемирного тяготения [Н]</p>
+          </td>
+          <td>$$ F={MmG \over R^2}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>
+              Ускорение свободного падения для конкретной планеты
+              [м/с<sup>2</sup>]
+            </p>
+          </td>
+          <td>$$ g={MG \over R^2}$$</td>
+        </tr>
+        <tr>
+          <td><p>Сила тяжести [Н]</p></td>
+          <td>$$ F=mg$$</td>
+        </tr>
+        <tr>
+          <td><p>Сила упругости [Н], здесь k - коэффициент жескости</p></td>
+          <td>$$ F=kx $$</td>
+        </tr>
+        <tr>
+          <td><p>Сила трения [Н], здесь &#956; - коэффициент жескости</p></td>
+          <td>$$ F=\mu N$$</td>
+        </tr>
+        <tr>
+          <td><p>Второй закон Ньютона [Н]</p></td>
+          <td>$$ F_1+F_2+...+F_N=am$$</td>
+        </tr>
+        <tr>
+          <td><p>Работа [Дж]</p></td>
+          <td>$$ A=FL$$</td>
+        </tr>
+        <tr>
+          <td><p>Потенциальная энергия [Дж]</p></td>
+          <td>$$ E=mgh$$</td>
+        </tr>
+        <tr>
+          <td><p>Потенциальная энергия пружины [Дж]</p></td>
+          <td>$$ E_п={kx^2 \over2}$$</td>
+        </tr>
+        <tr>
+          <td><p>Кинетическая энергия [Дж]</p></td>
+          <td>$$ E_к={mv^2 \over2}$$</td>
+        </tr>
+        <tr>
+          <td><p>Meханическая энергия [Дж]</p></td>
+          <td>$$E=E_п+E_к$$</td>
+        </tr>
+        <tr>
+          <td><p>Мощность [Вт]</p></td>
+          <td>$$N={A \over t}=Fv$$</td>
+        </tr>
+        <tr>
+          <td><p>Импульс [кг·м/с]</p></td>
+          <td>$$p=mu$$</td>
+        </tr>
+      </table>
+    </div>
+    <button class="accordion">Статика, гидростатика и гидродинамика</button>
+    <div class="panel">
+      <table>
+        <tr>
+          <td>
+            <p>давление твердых тел [Па]</p>
+          </td>
+          <td>$$p={F\over S}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>давление в жидкостях и газах [Па]</p>
+          </td>
+          <td>$$p=\rho gh$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>давление в открытом сосуде и на глубине [Па]</p>
+          </td>
+          <td>$$p=p_{атм}+\rho gh$$</td>
+        </tr>
+      </table>
+    </div>
+    <button class="accordion">Колебания и волны</button>
+    <div class="panel">
+      <table>
+        <tr>
+          <td>
+            <p>Уравнения гармонических колебаний [м]</p>
+          </td>
+          <td>$$x=x_{max} cos\omega t$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Уравнения гармонических колебаний [м/с]</p>
+          </td>
+          <td>$$v=-x_{max} \omega sin\omega t$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Уравнения гармонических колебаний [м/с<sup>2</sup>]</p>
+          </td>
+          <td>$$a=-x_{max} \omega^2cos\omega t$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Период математического маятника [c]</p>
+          </td>
+          <td>$$T=2 \pi \sqrt{l \over g}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Период пружинного маятника [c]</p>
+          </td>
+          <td>$$T=2 \pi \sqrt{m \over k}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Длина волны [м]</p>
+          </td>
+          <td>$$\lambda =vT$$</td>
+        </tr>
+      </table>
+    </div>
+    <button class="accordion">Молекулярная физика и термодинамика</button>
+    <div class="panel">
+      <table>
+        <tr>
+          <td>
+            <p>Количество вещества [моль]</p>
+          </td>
+          <td>$$\nu ={N\over N_a}={m\over M}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Масса одной молекулы [кг]</p>
+          </td>
+          <td>$$m_0 ={m\over N}={m\over \nu N_a}={M \over N_a}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Основное уравнение МКТ [Па]</p>
+          </td>
+          <td>
+            $$p={1 \over 3} nm_0 v^2={2 \over 3}nE_ср={1 \over 3} \rho v^2=nkT$$
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Средняя энергия одной молекулы [Дж]</p>
+          </td>
+          <td>$$E_ср={3\over 2}kT$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Уравнение Менделеева-Клаперона</p>
+          </td>
+          <td>$$pV=\nu RT$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Работа газа [Дж]</p>
+          </td>
+          <td>$$A=p\Delta V$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Изотермический процесс</p>
+          </td>
+          <td>
+            $$T=0; Q=A=\nu RTln {V_2 \over V_1}=\nu RTln {p_1 \over p_2}$$
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Изобраный процесс</p>
+          </td>
+          <td>
+            $$p=0; Q=\Delta U+A={5 \over 2}\nu R\Delta T={5 \over 2}p\Delta V$$
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Изохорный процесс</p>
+          </td>
+          <td>
+            $$\Delta V =0; Q=\Delta U={3 \over 2}\nu R\Delta T={3 \over
+            2}p\Delta V$$
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Адиабатный процесс</p>
+          </td>
+          <td>$$Q=0; A=-\Delta U=-{3\over 2}\nu R\Delta T$$</td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>КПД теплового процесса</p>
+          </td>
+          <td>$$\eta={A\over Q}={T_н-T_х\over T_н}={Q_н-Q_х\over Q_н}$$</td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Относительная влажность воздуха</p>
+          </td>
+          <td>$$\varphi ={p \over p_0}={\rho \over \rho_0}$$</td>
+        </tr>
+      </table>
+    </div>
+    <button class="accordion">Электродинамика</button>
+    <div class="panel">
+      <table>
+        <tr>
+          <td>
+            <p>Закон Кулона [Н]</p>
+          </td>
+          <td>$$F ={q_1 q_2\over r^2}k$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Напряженность [В/м]</p>
+          </td>
+          <td>$$E ={q\over r^2}k={F \over q}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Потенциал [В]</p>
+          </td>
+          <td>$$\varphi ={q\over r}k={W\over q}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Потенциалная энергия двух зарядов [Дж]</p>
+          </td>
+          <td>$$W={q_1 q_2\over r}k$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Электроемкость [Ф]</p>
+          </td>
+          <td>$$С={\varepsilon \varepsilon_0 S \over d}$$</td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Энергия конденсатора пола [Дж]</p>
+          </td>
+          <td>$$W={CU^2 \over 2}={qU \over 2}={q^2 \over 2C}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Сила тока [А]</p>
+          </td>
+          <td>$$I={q \over t}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Сопротивление [Ом]</p>
+          </td>
+          <td>$$R={\rho l \over S}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Закон Ома [В]</p>
+          </td>
+          <td>$$U=IR$$</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>Параллельное соединение</td>
+          <td>Последовательное соединение</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Электроемкость</p>
+          </td>
+          <td>$$С=С_1+С_2$$</td>
+          <td>$${1\over C}={1\over C_1}+{1\over C_2}+...+{1\over C_n}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Сила тока</p>
+          </td>
+          <td>$$I=I_1+I_2+...+I_n$$</td>
+          <td>$$I=I_1=i_2=I_n$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Напряжение</p>
+          </td>
+          <td>$$U=U_1=U_2=U_n$$</td>
+          <td>$$U=U_1+U_2+...+U_n$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Сопротивление</p>
+          </td>
+          <td>$${1\over R}={1\over R_1}+{1\over R_2}+...+{1\over R_n}$$</td>
+          <td>$$R=R_1+R_2+...+R_n$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Закон Ома для полной цепи [Ом]</p>
+          </td>
+          <td>$$\varepsilon=I(R+r)$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Закон Джоуля-Ленца [Дж]</p>
+          </td>
+          <td>$$Q=I^2Rt={U^2\over R}t=UIt=Pt$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>КПД источника тока</p>
+          </td>
+          <td>$$\eta ={U \over \varepsilon}={R \over R+r}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Закон Ампера [Н]</p>
+          </td>
+          <td>$$F_A =BILsin \alpha$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Сила Лоренца [Н]</p>
+          </td>
+          <td>$$F_Л =qBvsin \alpha$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Поток магнитной индукции [Вб]</p>
+          </td>
+          <td>$$Ф =BScos\alpha$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Закон электромагнитной индукции [В]</p>
+          </td>
+          <td>
+            $$\varepsilon ={\Delta Ф\over \Delta t}={BScos\alpha\over t}=IR$$
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Энергия магнитного пола [Дж]</p>
+          </td>
+          <td>$$W={LI \over 2}$$</td>
+        </tr>
+      </table>
+    </div>
+    <button class="accordion">Оптика</button>
+    <div class="panel">
+      <table>
+        <tr>
+          <td>
+            <p>Закон преломления</p>
+          </td>
+          <td>$$n_1 sian\alpha=n_2 sin\beta$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Формула линзы</p>
+          </td>
+          <td>$${1\over F}={1\over d}+{1 \over f}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Оптическая сила линзы</p>
+          </td>
+          <td>$$D={1\over F}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Увеличение линзы</p>
+          </td>
+          <td>$$Г={f\over d}={H\over h}$$</td>
+        </tr>
+      </table>
+    </div>
+    <button class="accordion">Квантовая физика</button>
+    <div class="panel">
+      <table>
+        <tr>
+          <td>
+            <p>Энергия фотона [Дж] или [еВ]</p>
+          </td>
+          <td>$$E=h\nu={hc\over \lambda}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Импульс фотона [кг·м/с]</p>
+          </td>
+          <td>$$p=mc={hc \over c}={h\over \lambda}$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Уравнение фотоэффецта [Дж]</p>
+          </td>
+          <td>$$h\nu=A+{mv^2\over 2}=A+eU$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Деффект масс [кг] или [а.е.м.]</p>
+          </td>
+          <td>$$\Delta m=[Zm_p+(A-Z)m_p]-m_я$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Енергия связи [Дж] или [eВ]</p>
+          </td>
+          <td>$$E_{св}=\Delta mc^2$$</td>
+        </tr>
+
+        <tr>
+          <td>
+            <p>Массовое число (N - нейтроны Z - протоны) [шт]</p>
+          </td>
+          <td>$$A=Z+N$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Деффект масс [кг] или [а.е.м]</p>
+          </td>
+          <td>$$\Delta m=[Zm_p+(A-Z)m_p]-m_я$$</td>
+        </tr>
+        <tr>
+          <td>
+            <p>Закон радиактивного распада</p>
+          </td>
+          <td>$$N=N_02^{-t\over T}$$</td>
+        </tr>
+      </table>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

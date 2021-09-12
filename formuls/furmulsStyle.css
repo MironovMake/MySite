@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 10vh;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to bottom left, #800000, #ff6600);
+  color: #fff9f9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 40rem;
+          flex: 2 1 40rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to top left, #800000, #ff6600);
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 5%;
+  color: #fff9f9;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to bottom left, #800000, #ff6600);
+  margin-top: 20px;
+  color: whites;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 1.8rem;
+  -webkit-box-shadow: 1rem;
+          box-shadow: 1rem;
+  -webkit-box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to bottom right, #800000, #ff6600);
+  height: 20vh;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  margin-left: 15%;
+  cursor: pointer;
+  padding: 18px;
+  width: 70%;
+  height: 10vh;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 2rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.panel {
+  font-size: 1.8rem;
+}
+
+table {
+  margin-left: 15%;
+  width: 70%;
+}
+
+th,
+td {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #04aa6d;
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+  .accordion {
+    margin-left: 5%;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    height: 10vh;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+  table {
+    margin-left: 0;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  table {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=furmulsStyle.css.map */

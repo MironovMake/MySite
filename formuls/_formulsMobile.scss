@@ -1,0 +1,25 @@
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+  .accordion {
+    margin-left: 5%;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    height: 10vh;
+    border: none;
+    text-align: left;
+    outline: none;
+  }
+  table {
+    margin-left: 0;
+    table-layout: fixed;
+    width: 100%;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  table {
+    font-size: 1rem;
+  }
+}

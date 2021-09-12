@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 10vh;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to bottom left, #800000, #ff6600);
+  color: #fff9f9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 40rem;
+          flex: 2 1 40rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to top left, #800000, #ff6600);
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 5%;
+  color: #fff9f9;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to bottom left, #800000, #ff6600);
+  margin-top: 20px;
+  color: whites;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 1.8rem;
+  -webkit-box-shadow: 1rem;
+          box-shadow: 1rem;
+  -webkit-box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#800000), to(#ff6600));
+  background-image: linear-gradient(to bottom right, #800000, #ff6600);
+  height: 20vh;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+h2 {
+  padding-left: 10%;
+}
+
+img {
+  width: 66%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container-schedule {
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 4px;
+  text-align: center;
+}
+
+.grid-container-schedule {
+  -ms-grid-columns: 75px 500px 450px;
+      grid-template-columns: 75px 500px 450px;
+}
+
+.card {
+  background-color: none;
+}
+
+.cards {
+  max-width: 800;
+  padding: 13px 0px 0px 75px;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2rem;
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+  .grid-container-schedule {
+    -ms-grid-columns: 20% 75% auto;
+        grid-template-columns: 20% 75% auto;
+  }
+  .cards {
+    padding: 13px;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .cards-2 {
+    max-width: 500;
+    margin: auto auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 2rem;
+    -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  footer {
+    height: 40vh;
+  }
+}
+/*# sourceMappingURL=SheduleStlyle.css.map */

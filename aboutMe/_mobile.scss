@@ -1,0 +1,109 @@
+@media only screen and (max-width: 800px) {
+  header {
+    height: 15vh;
+  }
+
+  section {
+    height: 70vh;
+  }
+  .All-site {
+    scroll-snap-type: none;
+    overflow-y: none;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  #physic {
+    h1 {
+      width: 80vw;
+      height: auto;
+      position: relative;
+      top: 5vh;
+      left: 10vw;
+    }
+    p {
+      margin-left: 10vw;
+      padding-left: 2%;
+      position: relative;
+      top: 5vh;
+      width: 80vw;
+    }
+  }
+  #printing {
+    background-size: 40%;
+    background-position-x: 95%;
+    background-position-y: 80%;
+    #tex3d {
+      margin-left: 10vw;
+      padding-left: 2%;
+      padding-bottom: 2%;
+      position: relative;
+      top: 5vh;
+      width: 80vw;
+      padding: 2rem;
+    }
+    img {
+      position: relative;
+      left: 38vw;
+      top: 17vh;
+    }
+  }
+  /*Web programming*/
+  #arduino_Stuff,
+  #web_Programming {
+    p {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+    img {
+      height: 10rem;
+    }
+    .container {
+      padding: 5%;
+    }
+  }
+  #arduino_Stuff {
+    img {
+      height: 5rem;
+    }
+  }
+  /* Contact Section */
+  .heading {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    p {
+      margin-top: 5%;
+      padding-top: 3%;
+      height: 25vh;
+    }
+    h1 {
+      width: 100%;
+      height: 10vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .forma {
+      width: 80vw;
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  footer {
+    height: 30vh;
+    justify-content: space-evenly;
+    align-items: center;
+    .profi-widget {
+      display: none;
+    }
+  }
+}

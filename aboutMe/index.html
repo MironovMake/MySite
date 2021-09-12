@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обо мне</title>
+    <link rel="stylesheet" type="text/css" href="\aboutMe\styleAboutMe.css" />
+    <link rel="icon" href="../img/icons/SiteIcon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo" class="lang" key="Logo">Обо мне</h1>
+        <ul>
+          <li>
+            <a href="../index.html" class="lang" key="schedule"> Расписание</a>
+          </li>
+          <li>
+            <a href="../formuls/formuls.html" key="formuls" class="lang"
+              >Формулы</a
+            >
+          </li>
+          <li><a href="" class="lang" key="AboutMe">Обо мне</a></li>
+          <li>
+            <button id="en" class="translate" onclick="EngOn()">
+              <img src="../img/icons/eng.png" id="eng" class="eng" alt="" />
+            </button>
+            <button id="ru" class="translate" onclick="RusOn()">
+              <img src="../img/icons/rus.png" id="rus" class="rus" alt="" />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="All-site">
+      <section id="physic">
+        <div class="TopShade"></div>
+        <h1 class="lang" key="physicIntro">Физика и процесс обучения</h1>
+        <p id="intro" class="lang" key="intro">
+          Представьте себе круг, внутри этого круга находятся Ваши знания, за
+          его пределами неизвестность. Вы видите границу своего знания и у
+          глупого человека она маленькая, поэтому он уверен в том, что знает
+          почти все на свете. У умного - круг знаний огромный и он понимает,
+          многое ему неизвестно. Поэтому я стараюсь постоянно развиваться,
+          изучать что-то новое.
+        </p>
+        <p class="lang" key="physic">
+          На данный момент я работаю репетитором по физике. Это интересно потому
+          что предмет очень логичный и работать с детьми - здорово. Так же это
+          позволяет периодически тренировать свою логику и иногда попадаются
+          действительно интересные задачи. Помимо всего прочего меня интересует
+          как происходит процесс обучения у человека, ведь я постоянно нахожусь
+          в процессе усвоения новой информации.
+        </p>
+      </section>
+
+      <section id="printing">
+        <div class="printingTex">
+          <h1 class="lang heading" key="printingTex">
+            3д принтер - инструмент, а не роскошь
+          </h1>
+          <p id="tex3d" key="tex3d" class="lang">
+            Являюсь обладателем 3д принтера Anet e10. Использую 3д печать для
+            реализации школьных проектов, а так же для личных бытовых целей.
+            Считаю, что 3д печать - замечательное хобби, позволяющее расширить
+            возможности крафта и очень важный инструмен для ремонта или создания
+            крафтовых вещей для дома. Можете посмотреть мою печать в инсте или
+            моем профиле в thingiverse, но я редко что-то выкладываю.
+          </p>
+        </div>
+        <a
+          target="_blank"
+          href="https://www.thingiverse.com/aleksandr1993/designs"
+        >
+          <img class="thingeverse-icon" src="../img/icons/thingiverse.svg"
+        /></a>
+      </section>
+      <section id="web_Programming">
+        <h1 key="webHead" class="lang heading">Web программирование</h1>
+        <div class="container">
+          <div>
+            <img src="../img/icons/html.png" />
+            <p>HTML</p>
+          </div>
+          <div>
+            <img src="../img/icons/css.png" />
+            <p>CSS</p>
+          </div>
+          <div>
+            <img src="../img/icons/sass.png" />
+            <p>SASS</p>
+          </div>
+          <div>
+            <img src="../img/icons/js.png" />
+            <p>JS</p>
+          </div>
+        </div>
+        <p key="webText" class="lang">
+          С недавнего времени я освоил html и css, но некоторые элементы все еще
+          гуглю. SASS пользу, но явно не знаю многие фишки, да и не думаю, что
+          мне это пока необходимо. JS понимаю на уровне интуиции, если надо
+          что-то обработать, типа показания кнопки, то только копипаста с
+          дальнейшими танцами с бубном. Этот сайт написан мной, а так же я
+          прописываю свой домашний сервер для управления домашней утварью.
+        </p>
+      </section>
+
+      <section id="arduino_Stuff">
+        <h1 key="arduino_StuffHeader" class="lang heading">
+          C++, arduino esp8266 и другие штуки
+        </h1>
+
+        <div class="container">
+          <a target="_blank" href="https://github.com/MironovMake"
+            ><img src="../img/icons/github.svg" class="github"
+          /></a>
+
+          <img src="../img/icons/c++.svg" />
+        </div>
+        <p key="arduino_StuffText" class="lang">
+          Несколько лет я работал педагогом доп образования, вел робототехнику
+          на базе ардуино, сейчас перешел на esp8266. Пишу на С++ в Visual
+          Studio Code. Знаю Git, но на базовом уровне. Необходимости ветвить
+          проект и сращивать ветки просто отсутствует, ссылка на мой гитхаб
+          активна, можете ознакомиться. Помимо кодинга свободно собираю, спаиваю
+          схемы, которые мне необходимы. При необходимости могу развести плату в
+          EasyEDA и потом заказать ee c завода.
+        </p>
+      </section>
+      <section id="contact">
+        <div class="content">
+          <h1 class="heading lang" key="contactHeader1">Обратная связь</h1>
+
+          <div class="forma">
+            <div class="form-wrapper"></div>
+            <p class="lang" key="finalText">
+              Согласно вышесказанному когда я делаю какой-то проект, я натыкаюсь
+              на смежные технологии типа JSON, MQTT, LoRa, SQL, FireBase и много
+              другое. У меня всегда появляется желание освоить эту технологию,
+              но у меня не хватает на это времени. И если у Вас есть интересная
+              работа или Вам нужная в чем то моя помощь, обращайтесь.
+            </p>
+            <p>e-mail: surka2012@yandex.com</p>
+          </div>
+        </div>
+        <footer>
+          <nav>
+            <div id="logo">
+              <div
+                class="profi-widget"
+                data-id="48f5cb45567133ac5dc4f9b8c82c73f0"
+                data-type="300x100"
+              >
+                Powered by
+                <a target="_blank" href="https://profi.ru/profile/MironovAG3"
+                  >Profi.ru</a
+                >
+              </div>
+              <script src="https://profi.ru/jqs/widget/widget.js"></script>
+            </div>
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://vk.com/mag_aleksandr"
+                  class="fa fa-vk"
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/miralexgenn"
+                  class="fa fa-linkedin"
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/mag._aleks?r=nametag"
+                  class="fa fa-instagram"
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://join.skype.com/invite/h7KmJTzLLjtA"
+                  .
+                  class="fa fa-skype"
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
