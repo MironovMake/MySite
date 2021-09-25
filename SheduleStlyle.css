@@ -28,6 +28,10 @@ header h1 {
   font-size: 2.5rem;
 }
 
+.home-page {
+  display: block;
+}
+
 a {
   color: #fff;
   text-decoration: none;
@@ -160,13 +164,18 @@ img {
     -ms-grid-columns: 20% 75% auto;
         grid-template-columns: 20% 75% auto;
   }
+  .home-page {
+    display: none;
+  }
   .cards {
     padding: 13px;
     margin: 0;
   }
   img {
-    width: 100%;
+    width: 98%;
     height: auto;
+    margin: 0;
+    padding: 0;
   }
   .cards-2 {
     max-width: 500;
@@ -178,7 +187,7 @@ img {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
   footer {
-    height: 40vh;
+    height: 35vh;
   }
 }
 /*# sourceMappingURL=SheduleStlyle.css.map */

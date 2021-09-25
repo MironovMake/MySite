@@ -5,14 +5,19 @@
     grid-template-columns: 20% 75% auto;
   }
 
+  .home-page {
+    display: none;
+  }
   .cards {
     padding: 13px;
     margin: 0;
   }
 
   img {
-    width: 100%;
+    width: 98%;
     height: auto;
+    margin: 0;
+    padding: 0;
   }
 
   .cards-2 {
