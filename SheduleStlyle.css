@@ -117,45 +117,44 @@ footer {
 }
 
 h2 {
-  padding-left: 10%;
+  padding-left: 15%;
+  position: relative;
+  top: 5%;
 }
 
-img {
-  width: 66%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.grid-container-schedule {
-  display: -ms-grid;
-  display: grid;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 4px;
-  text-align: center;
-}
-
-.grid-container-schedule {
-  -ms-grid-columns: 75px 500px 450px;
-      grid-template-columns: 75px 500px 450px;
-}
-
-.card {
-  background-color: none;
+section {
+  height: 70vh;
 }
 
 .cards {
-  max-width: 800;
-  padding: 13px 0px 0px 75px;
-  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.grid-container-schedule {
   display: -ms-grid;
   display: grid;
-  grid-gap: 2rem;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -ms-grid-columns: 75px 490px 40px;
+      grid-template-columns: 75px 490px 40px;
+}
+
+img {
+  position: relative;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  height: 60vh;
+  width: auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -163,6 +162,9 @@ img {
   .grid-container-schedule {
     -ms-grid-columns: 20% 75% auto;
         grid-template-columns: 20% 75% auto;
+  }
+  .content {
+    height: auto;
   }
   .home-page {
     display: none;

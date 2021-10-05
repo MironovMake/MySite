@@ -4,7 +4,9 @@
   .grid-container-schedule {
     grid-template-columns: 20% 75% auto;
   }
-
+  .content {
+    height: auto;
+  }
   .home-page {
     display: none;
   }
