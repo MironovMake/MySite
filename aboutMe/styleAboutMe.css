@@ -374,7 +374,14 @@ section {
 
 .field {
   background-color: #ffffff;
-  width: 80%;
+  width: 50rem;
+  font-size: 2rem;
+}
+
+.submit {
+  margin-left: 15%;
+  width: 50rem;
+  height: 3rem;
   font-size: 2rem;
 }
 
