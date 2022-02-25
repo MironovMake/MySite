@@ -139,15 +139,38 @@
           <h1 class="heading lang" key="contactHeader1">Обратная связь</h1>
 
           <div class="forma">
-            <div class="form-wrapper"></div>
-            <p class="lang" key="finalText">
-              Согласно вышесказанному когда я делаю какой-то проект, я натыкаюсь
-              на смежные технологии типа JSON, MQTT, LoRa, SQL, FireBase и много
-              другое. У меня всегда появляется желание освоить эту технологию,
-              но у меня не хватает на это времени. И если у Вас есть интересная
-              работа или Вам нужная в чем то моя помощь, обращайтесь.
-            </p>
-            <p>e-mail: surka2012@yandex.com</p>
+            <form
+              class="box"
+              action="https://formspree.io/f/xpzbdezb"
+              method="POST"
+            >
+              <div>
+                <p class="regularText">
+                  Вы можете написать мне сообщение тут или в соцсетях здесь
+                </p>
+              </div>
+              <div class="email-form" value="email">
+                Email:
+                <br />
+                <input
+                  class="field ema"
+                  type="email"
+                  name="email"
+                  placeholder="email"
+                />
+              </div>
+              <div class="message">
+                сообщение:
+                <br />
+                <textarea
+                  class="field"
+                  name="message"
+                  rows="8"
+                  cols="36"
+                ></textarea>
+              </div>
+              <button class="submit" type="submit">Отправить</button>
+            </form>
           </div>
         </div>
         <footer>

@@ -116,6 +116,10 @@ footer {
   color: white;
 }
 
+section {
+  height: 70vh;
+}
+
 @media only screen and (max-width: 800px) {
   .home-page {
     display: none;

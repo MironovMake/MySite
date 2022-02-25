@@ -186,5 +186,14 @@ section {
     color: white;
   }
 }
-
+.field {
+  background-color: #ffffff;
+  width: 80%;
+  font-size: 2rem;
+}
+.message,
+.email-form {
+  padding-left: 15%;
+  margin-bottom: 5%;
+}
 @import "mobile";

@@ -372,6 +372,18 @@ section {
   color: white;
 }
 
+.field {
+  background-color: #ffffff;
+  width: 80%;
+  font-size: 2rem;
+}
+
+.message,
+.email-form {
+  padding-left: 15%;
+  margin-bottom: 5%;
+}
+
 @media only screen and (max-width: 800px) {
   header {
     height: 15vh;
@@ -455,11 +467,6 @@ section {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .content p {
-    margin-top: 5%;
-    padding-top: 3%;
-    height: 25vh;
   }
   .content h1 {
     width: 100%;
