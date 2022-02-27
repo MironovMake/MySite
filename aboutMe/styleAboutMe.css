@@ -374,13 +374,13 @@ section {
 
 .field {
   background-color: #ffffff;
-  width: 50rem;
+  width: 80%;
   font-size: 2rem;
 }
 
 .submit {
   margin-left: 15%;
-  width: 50rem;
+  width: 70%;
   height: 3rem;
   font-size: 2rem;
 }
