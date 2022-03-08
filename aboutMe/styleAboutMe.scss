@@ -1,10 +1,13 @@
 @import "../styles/genegalStuff";
 @import "../styles/fonts";
 @import "../styles/nav";
-$backSectionHeader: rgb(255, 102, 0);
 
 /* nav*/
+$one: rgb(30, 184, 255);
+$two: #00225f;
 
+@include header1($two, $one);
+@include heading1($two, $one);
 .translate {
   background: none;
   border: none;
@@ -40,7 +43,7 @@ section {
     width: 100%;
   }
   h1 {
-    width: 70vw;
+    width: 40vw;
     background: rgba(22, 22, 22, 0.6);
     position: relative;
     top: 20vh;
@@ -56,53 +59,11 @@ section {
     padding-left: 2%;
     position: relative;
     top: 20vh;
-    width: 70vw;
+    width: 40vw;
     background: rgba(255, 255, 255, 0.6);
   }
 }
-/*3d Section*/
-#printing {
-  height: 90vh;
-  background: url("../img/aboutMe/3d.png");
-  background-size: 25%;
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 80%;
-  #tex3d {
-    padding-top: 1%;
-    padding-left: 5%;
-    position: relative;
-    width: 70vw;
-    height: 25vh;
-  }
-
-  img {
-    position: relative;
-    left: 32vw;
-    transform: translate(-50%, 0%);
-    background: rgba(255, 255, 255, 0.6);
-    border-radius: 10rem;
-    height: 15rem;
-    animation: ring 1s infinite alternate;
-  }
-
-  @keyframes ring {
-    0% {
-      width: 10rem;
-      height: 10rem;
-    }
-    100% {
-      width: 14.5rem;
-      height: 14.5rem;
-    }
-  }
-  #intro {
-    padding: 1% 2% 1% 2%;
-    background: rgba(255, 255, 255, 0.6);
-    position: relative;
-  }
-}
-/*Web programming*/
+/* CODING */
 
 #web_Programming {
   height: 89.3vh;
@@ -120,8 +81,54 @@ section {
     p {
       text-align: center;
     }
+    div {
+      width: 10rem;
+      height: 15rem;
+      display: flex;
+      justify-content: center;
+    }
   }
 }
+.github {
+  max-width: 14rem;
+  animation: ring 1s infinite alternate;
+}
+@keyframes ring {
+  0% {
+    width: 10rem;
+    height: 10rem;
+    opacity: 1;
+  }
+}
+/* Aditional skills */
+#printing {
+  height: 90vh;
+  background: url("../img/aboutMe/3d.png");
+  background-size: 25%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 80%;
+  #tex3d {
+    padding-top: 1%;
+    padding-left: 5%;
+    position: relative;
+    width: 70vw;
+    height: 25vh;
+  }
+
+  // img {
+  //   position: relative;
+  //   left: 32vw;
+  //   transform: translate(-50%, 0%);
+  //   background: rgba(255, 255, 255, 0.6);
+  //   border-radius: 10rem;
+  //   height: 15rem;
+  //   animation: ring 1s infinite alternate;
+  // }
+}
+
+/*Web programming*/
+
 /* arduino Stuff */
 .another {
   background: black;
@@ -134,23 +141,23 @@ section {
     padding-right: 10%;
     padding-top: 7%;
   }
-  .github {
-    min-width: 15rem;
-    animation: ring 1s infinite alternate;
-  }
-  @keyframes ring {
-    0% {
-      width: 10rem;
-      height: 10rem;
-      opacity: 1;
-    }
-
-    100% {
-      width: 13.5rem;
-      height: 13.5rem;
-      opacity: 1;
-    }
-  }
+  // .github {
+  //   min-width: 15rem;
+  //   animation: ring 1s infinite alternate;
+  // }
+  // @keyframes ring {
+  //   0% {
+  //     width: 10rem;
+  //     height: 10rem;
+  //     opacity: 1;
+  //   }
+  //
+  //   100% {
+  //     width: 13.5rem;
+  //     height: 13.5rem;
+  //     opacity: 1;
+  //   }
+  // }
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -201,5 +208,156 @@ section {
 .email-form {
   padding-left: 15%;
   margin-bottom: 5%;
+}
+.leg {
+  background-image: linear-gradient(to bottom right, $two, $one);
+  height: 20vh;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+//  slider Gallery
+
+img {
+  vertical-align: middle;
+  height: 60vh;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  margin-left: 5%;
+  position: absolute;
+  top: 20vh;
+  width: 90%;
+  height: 85%;
+  display: none;
+  background: #222;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+#CloseAwards {
+  background-image: url("img/close.png");
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transform: translateX(-100%);
+  left: 100%;
+  bottom: 85%;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 0vh;
+  width: auto;
+  padding: 16px;
+  margin-top: 40vh;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(143, 15, 15, 0.8);
+  position: absolute;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height: 10vh;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.awards {
+  margin-left: 40%;
+  margin-top: 5%;
+  width: 15vw;
+  height: 7vh;
+  background: rgb(0, 177, 179);
+  background: linear-gradient(202deg, $two, $one, rgba(0, 212, 255, 1) 100%);
+  color: white;
+  cursor: pointer;
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  background-image: linear-gradient(to bottom left, $two, $one);
+  margin-top: 20px;
+  color: whites;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 1.8rem;
+  box-shadow: 1rem;
+  box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3),
+    10px 5px 5px rgba(0, 0, 0, 0.4);
 }
 @import "mobile";
