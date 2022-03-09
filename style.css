@@ -137,7 +137,7 @@ footer {
 @media only screen and (max-width: 800px) {
   /*   For mobile:*/
   .header {
-    padding: 1rem;
+    height: 14vh;
   }
   .grid-container-schedule {
     -ms-grid-columns: 20% 75% auto;
@@ -149,7 +149,7 @@ footer {
   .cards {
     padding: 13px;
     margin: 0;
-    height: 95vh;
+    height: 125vh;
   }
   img {
     width: 98%;
