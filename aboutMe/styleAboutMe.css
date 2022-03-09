@@ -1,0 +1,637 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.home-page {
+  display: block;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 40rem;
+          flex: 2 1 40rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* nav*/
+.main-head {
+  height: 11vh;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
+  background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
+  color: #fff9f9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+}
+
+.main-head h1 {
+  font-size: 2.5rem;
+}
+
+.heading1 {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#00225f), to(#1eb8ff));
+  background-image: linear-gradient(to top left, #00225f, #1eb8ff);
+  text-align: center;
+  padding: 2%;
+  color: #fff9f9;
+}
+
+.translate {
+  background: none;
+  border: none;
+}
+
+.eng {
+  height: 42px;
+  width: 40px;
+}
+
+.rus {
+  width: 40px;
+  height: 35px;
+  display: none;
+}
+
+/*intro*/
+.All-site {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+#physic {
+  height: 90vh;
+  background-image: url("../img/aboutMe/phsic.jpg");
+  background-size: cover;
+  background-position: 30% 100%;
+}
+
+#physic .TopShade {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(transparent));
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
+  height: 3rem;
+  width: 100%;
+}
+
+#physic h1 {
+  width: 40vw;
+  background: rgba(22, 22, 22, 0.6);
+  position: relative;
+  top: 20vh;
+  left: 5%;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#physic p {
+  text-indent: 20px;
+  margin-left: 5%;
+  padding-left: 2%;
+  position: relative;
+  top: 20vh;
+  width: 40vw;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* CODING */
+#web_Programming {
+  height: 89.3vh;
+}
+
+#web_Programming img {
+  height: 15rem;
+}
+
+#web_Programming p {
+  padding: 5% 10% 0px 10%;
+}
+
+#web_Programming .iconsSkils {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding-left: 2.5%;
+  width: 99%;
+}
+
+#web_Programming .iconsSkils div {
+  width: 10rem;
+  height: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#web_Programming .DispALsa {
+  padding-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.github {
+  max-width: 14rem;
+  -webkit-animation: ring 1s infinite alternate;
+          animation: ring 1s infinite alternate;
+}
+
+@-webkit-keyframes ring {
+  0% {
+    width: 10rem;
+    height: 10rem;
+    opacity: 1;
+  }
+}
+
+@keyframes ring {
+  0% {
+    width: 10rem;
+    height: 10rem;
+    opacity: 1;
+  }
+}
+
+/* Aditional skills */
+#printing {
+  height: 90vh;
+  background: url("img/Soldering.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: 80%;
+}
+
+#printing #tex3d {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 4rem;
+  position: relative;
+  width: 50vw;
+}
+
+/*Web programming*/
+/* Contact Section */
+.content {
+  height: 70vh;
+  background: url("../img/aboutMe/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.content .regularText {
+  font-size: 2.5rem;
+}
+
+.content .forma {
+  margin-top: 5rem;
+  padding: 2%;
+  height: 50vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.field {
+  background-color: #ffffff;
+  width: 40vw;
+  font-size: 2rem;
+}
+
+.submit {
+  width: 40vw;
+  height: 3rem;
+  font-size: 2rem;
+}
+
+.message,
+.email-form {
+  margin-bottom: 5%;
+  font-size: 2rem;
+}
+
+.headingLast {
+  width: 20vw;
+}
+
+.leg {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00225f), to(#1eb8ff));
+  background-image: linear-gradient(to bottom right, #00225f, #1eb8ff);
+  height: 20vh;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+img {
+  vertical-align: middle;
+  height: 60vh;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  margin-left: 5%;
+  position: absolute;
+  top: 20vh;
+  width: 90%;
+  height: 80%;
+  display: none;
+  background: #222;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+#CloseAwards {
+  background-image: url("img/close.png");
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  left: 100%;
+  bottom: 85%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 0vh;
+  width: auto;
+  padding: 16px;
+  margin-top: 40vh;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(143, 15, 15, 0.8);
+  position: absolute;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height: 10vh;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.awards {
+  margin-left: 40%;
+  margin-top: 5%;
+  width: 15vw;
+  height: 7vh;
+  background: #00b1b3;
+  background: linear-gradient(202deg, #00225f, #1eb8ff, #00d4ff 100%);
+  color: white;
+  cursor: pointer;
+  border: solid 1px white;
+  border-radius: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+
+.fab {
+  padding: 15px;
+  font-size: 30px;
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
+  background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
+  margin-top: 20px;
+  color: whites;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 1.8rem;
+  -webkit-box-shadow: 1rem;
+          box-shadow: 1rem;
+  -webkit-box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 1000px) {
+  section {
+    height: 70vh;
+  }
+  .All-site {
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
+    overflow-y: none;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  #physic h1 {
+    width: 80vw;
+    height: auto;
+    position: relative;
+    top: 5vh;
+    left: 10vw;
+  }
+  #physic p {
+    margin-left: 10vw;
+    padding-left: 2%;
+    position: relative;
+    top: 5vh;
+    width: 80vw;
+  }
+  #printing {
+    background-size: 40%;
+    background-position-x: 95%;
+    background-position-y: 85%;
+  }
+  #printing #tex3d {
+    margin-left: 10vw;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    top: 5vh;
+    width: 80vw;
+    padding: 2rem;
+  }
+  #printing img {
+    position: relative;
+    left: 38vw;
+    top: 17vh;
+  }
+  /*Web programming*/
+  #arduino_Stuff p,
+  #web_Programming p {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  #arduino_Stuff img,
+  #web_Programming img {
+    height: 10rem;
+  }
+  #arduino_Stuff .container,
+  #web_Programming .container {
+    padding: 5%;
+  }
+  #arduino_Stuff img {
+    height: 5rem;
+  }
+  .github {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 14rem;
+    -webkit-animation: ring 1s infinite alternate;
+            animation: ring 1s infinite alternate;
+  }
+  @-webkit-keyframes ring {
+    0% {
+      width: 9rem;
+      height: 9rem;
+      opacity: 1;
+    }
+  }
+  @keyframes ring {
+    0% {
+      width: 9rem;
+      height: 9rem;
+      opacity: 1;
+    }
+  }
+  /* Contact Section */
+  .headingLast {
+    width: 100%;
+  }
+  .heading {
+    height: 11vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .field {
+    background-color: #ffffff;
+    width: 100%;
+    font-size: 2rem;
+  }
+  .submit {
+    width: 100%;
+  }
+  .content .regularText {
+    font-size: 2rem;
+  }
+  .content .forma {
+    font-size: 1rem;
+    margin-top: 0;
+    width: 100%;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer {
+    height: 30vh;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .profi-widget {
+    display: none;
+  }
+  .forma {
+    margin-top: 0;
+  }
+  .awards {
+    font-size: 2rem;
+    width: 40vw;
+    margin-left: 30%;
+    margin-top: 15%;
+    display: none;
+  }
+  #logo {
+    display: none;
+    position: absolute;
+  }
+}
+/*# sourceMappingURL=styleAboutMe.css.map */
