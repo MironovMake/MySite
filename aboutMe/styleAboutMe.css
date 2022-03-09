@@ -532,9 +532,6 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-  header {
-    height: 18vh;
-  }
   .home-page {
     display: none;
   }
@@ -594,6 +591,7 @@ img {
   #arduino_Stuff img,
   #web_Programming img {
     height: 10rem;
+    width: 6rem;
   }
   #arduino_Stuff .container,
   #web_Programming .container {
@@ -642,11 +640,11 @@ img {
   }
   .field {
     background-color: #ffffff;
-    width: 80vw;
+    width: 100%;
     font-size: 2rem;
   }
   .submit {
-    width: 80vw;
+    width: 100%;
   }
   .content .regularText {
     font-size: 2rem;
@@ -654,7 +652,7 @@ img {
   .content .forma {
     font-size: 1rem;
     margin-top: 0;
-    width: 80vw;
+    width: 100%;
     height: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -696,8 +694,8 @@ img {
     margin-top: 15%;
     display: none;
   }
-  li {
-    padding-bottom: 1rem;
+  .main-head {
+    height: 14vh;
   }
 }
 /*# sourceMappingURL=styleAboutMe.css.map */
