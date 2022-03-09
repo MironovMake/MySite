@@ -330,7 +330,6 @@ section {
 }
 
 .content .forma {
-  margin-top: 5rem;
   padding: 2%;
   height: 50vh;
   width: 50vw;
@@ -681,7 +680,7 @@ img {
     height: 0px;
   }
   .DispALsa p {
-    color: white;
+    color: black;
   }
   .forma {
     margin-top: 0;
