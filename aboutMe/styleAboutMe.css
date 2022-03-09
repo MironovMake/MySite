@@ -149,7 +149,6 @@ footer {
   background-image: linear-gradient(to top left, #00225f, #1eb8ff);
   text-align: center;
   padding: 2%;
-  margin-bottom: 5%;
   color: #fff9f9;
 }
 
@@ -230,7 +229,7 @@ section {
   padding: 5% 10% 0px 10%;
 }
 
-#web_Programming .container {
+#web_Programming .iconsSkils {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,21 +241,32 @@ section {
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  padding-left: 2.5%;
+  width: 99%;
 }
 
-#web_Programming .container p {
-  text-align: center;
-}
-
-#web_Programming .container div {
+#web_Programming .iconsSkils div {
   width: 10rem;
   height: 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+#web_Programming .DispALsa {
+  padding-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .github {
@@ -284,56 +294,21 @@ section {
 /* Aditional skills */
 #printing {
   height: 90vh;
-  background: url("../img/aboutMe/3d.png");
-  background-size: 25%;
+  background: url("img/Soldering.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: 100%;
+  background-position-x: 80%;
   background-position-y: 80%;
 }
 
 #printing #tex3d {
-  padding-top: 1%;
-  padding-left: 5%;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 4rem;
   position: relative;
-  width: 70vw;
-  height: 25vh;
+  width: 50vw;
 }
 
 /*Web programming*/
-/* arduino Stuff */
-.another {
-  background: black;
-  height: 90vh;
-}
-
-#arduino_Stuff {
-  height: 90vh;
-}
-
-#arduino_Stuff p {
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 7%;
-}
-
-#arduino_Stuff .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#arduino_Stuff .container img {
-  height: 14rem;
-}
-
 /* Contact Section */
 .content {
   height: 70vh;
@@ -350,13 +325,13 @@ section {
           justify-content: space-evenly;
 }
 
-.content h1 {
-  margin: 0px;
+.content .regularText {
+  font-size: 2.5rem;
 }
 
 .content .forma {
+  margin-top: 5rem;
   padding: 2%;
-  margin-top: 10vh;
   height: 50vh;
   width: 50vw;
   display: -webkit-box;
@@ -373,21 +348,24 @@ section {
 
 .field {
   background-color: #ffffff;
-  width: 80%;
+  width: 40vw;
   font-size: 2rem;
 }
 
 .submit {
-  margin-left: 15%;
-  width: 70%;
+  width: 40vw;
   height: 3rem;
   font-size: 2rem;
 }
 
 .message,
 .email-form {
-  padding-left: 15%;
   margin-bottom: 5%;
+  font-size: 2rem;
+}
+
+.headingLast {
+  width: 20vw;
 }
 
 .leg {
@@ -624,7 +602,32 @@ img {
   #arduino_Stuff img {
     height: 5rem;
   }
+  .github {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 14rem;
+    -webkit-animation: ring 1s infinite alternate;
+            animation: ring 1s infinite alternate;
+  }
+  @-webkit-keyframes ring {
+    0% {
+      width: 9rem;
+      height: 9rem;
+      opacity: 1;
+    }
+  }
+  @keyframes ring {
+    0% {
+      width: 9rem;
+      height: 9rem;
+      opacity: 1;
+    }
+  }
   /* Contact Section */
+  .headingLast {
+    width: 100%;
+  }
   .heading {
     height: 10vh;
     display: -webkit-box;
@@ -637,22 +640,22 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
-  .content h1 {
-    width: 100%;
-    height: 10vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .field {
+    background-color: #ffffff;
+    width: 80vw;
+    font-size: 2rem;
+  }
+  .submit {
+    width: 80vw;
+  }
+  .content .regularText {
+    font-size: 2rem;
   }
   .content .forma {
+    font-size: 1rem;
+    margin-top: 0;
     width: 80vw;
-    height: 40vh;
+    height: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

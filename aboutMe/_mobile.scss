@@ -73,26 +73,47 @@
       height: 5rem;
     }
   }
+
+  .github {
+    justify-content: center;
+    max-width: 14rem;
+    animation: ring 1s infinite alternate;
+  }
+  @keyframes ring {
+    0% {
+      width: 9rem;
+      height: 9rem;
+      opacity: 1;
+    }
+  }
+
   /* Contact Section */
+  .headingLast {
+    width: 100%;
+  }
   .heading {
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+  .field {
+    background-color: #ffffff;
+    width: 80vw;
+    font-size: 2rem;
+  }
+  .submit {
+    width: 80vw;
+  }
   .content {
-    p {
-    }
-    h1 {
-      width: 100%;
-      height: 10vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .regularText {
+      font-size: 2rem;
     }
     .forma {
+      font-size: 1rem;
+      margin-top: 0;
       width: 80vw;
-      height: 40vh;
+      height: 80%;
       display: flex;
       align-items: center;
       justify-content: center;
