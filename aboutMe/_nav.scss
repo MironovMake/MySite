@@ -1,17 +1,3 @@
-@mixin header1($two, $one) {
-  .header1 {
-    height: 10vh;
-    background-image: linear-gradient(to bottom left, $two, $one);
-    color: rgb(255, 249, 249);
-    position: sticky;
-    top: 0px;
-    z-index: 6;
-    h1 {
-      font-size: 2.5rem;
-    }
-  }
-}
-
 @mixin heading1($two, $one) {
   .heading1 {
     background-image: linear-gradient(to top left, $two, $one);
