@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
@@ -43,9 +43,9 @@ nav {
   display: flex;
   width: 90%;
   margin: auto;
-  height: 10vh;
+  min-height: 10vh;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 nav ul {
@@ -53,13 +53,13 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-  -ms-flex: 1 1 40rem;
-  flex: 1 1 40rem;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style-type: none;
 }
 
@@ -68,23 +68,32 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 2;
-  -ms-flex: 2 1 40rem;
-  flex: 2 1 40rem;
+      -ms-flex: 2 1 40rem;
+          flex: 2 1 40rem;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /* nav*/
+.main-head {
+  height: 12vh;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
+  background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
+  color: #fff9f9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+}
+
+.main-head h1 {
+  font-size: 2.5rem;
+}
+
 .header1 {
   height: 10vh;
-  background-image: -webkit-gradient(
-    linear,
-    right top,
-    left bottom,
-    from(#00225f),
-    to(#1eb8ff)
-  );
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
   background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
   color: #fff9f9;
   position: -webkit-sticky;
@@ -98,13 +107,7 @@ nav ul {
 }
 
 .heading1 {
-  background-image: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#00225f),
-    to(#1eb8ff)
-  );
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#00225f), to(#1eb8ff));
   background-image: linear-gradient(to top left, #00225f, #1eb8ff);
   text-align: center;
   padding: 2%;
@@ -130,7 +133,7 @@ nav ul {
 /*intro*/
 .All-site {
   -ms-scroll-snap-type: y mandatory;
-  scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 90vh;
 }
@@ -147,13 +150,7 @@ section {
 }
 
 #physic .TopShade {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(0, 0, 0, 0.9)),
-    to(transparent)
-  );
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(transparent));
   background: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
   height: 3rem;
   width: 100%;
@@ -199,13 +196,13 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   padding-left: 2.5%;
   width: 99%;
 }
@@ -225,19 +222,19 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 
 .github {
   max-width: 14rem;
   -webkit-animation: ring 1s infinite alternate;
-  animation: ring 1s infinite alternate;
+          animation: ring 1s infinite alternate;
 }
 
 @-webkit-keyframes ring {
@@ -284,10 +281,10 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .content .regularText {
@@ -303,10 +300,10 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: rgba(0, 0, 0, 0.6);
   color: white;
 }
@@ -334,13 +331,7 @@ section {
 }
 
 .leg {
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    from(#00225f),
-    to(#1eb8ff)
-  );
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00225f), to(#1eb8ff));
   background-image: linear-gradient(to bottom right, #00225f, #1eb8ff);
   height: 20vh;
   text-align: center;
@@ -353,7 +344,7 @@ img {
   height: 60vh;
   position: relative;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   left: 50%;
 }
 
@@ -381,7 +372,7 @@ img {
   background-size: cover;
   position: relative;
   -webkit-transform: translateX(-100%);
-  transform: translateX(-100%);
+          transform: translateX(-100%);
   left: 100%;
   bottom: 85%;
 }
@@ -405,8 +396,8 @@ img {
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   -webkit-user-select: none;
 }
 
@@ -452,8 +443,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -489,13 +480,7 @@ img {
   text-align: center;
   text-decoration: none;
   margin: auto;
-  background-image: -webkit-gradient(
-    linear,
-    right top,
-    left bottom,
-    from(#00225f),
-    to(#1eb8ff)
-  );
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
   background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
   margin-top: 20px;
   color: whites;
@@ -503,167 +488,14 @@ img {
   border-color: white;
   border-radius: 1.8rem;
   -webkit-box-shadow: 1rem;
-  box-shadow: 1rem;
-  -webkit-box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3),
-    10px 5px 5px rgba(0, 0, 0, 0.4);
-  box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3),
-    10px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 1rem;
+  -webkit-box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-@media only screen and (max-width: 1000px) {
-  section {
-    height: 70vh;
-  }
-  .All-site {
-    -ms-scroll-snap-type: none;
-    scroll-snap-type: none;
-    overflow-y: none;
-  }
-  h1 {
-    font-size: 1.8rem;
-  }
-  p {
-    font-size: 1.4rem;
-  }
-  #physic h1 {
-    width: 80vw;
-    height: auto;
-    position: relative;
-    top: 5vh;
-    left: 10vw;
-  }
-  #physic p {
-    margin-left: 10vw;
-    padding-left: 2%;
-    position: relative;
-    top: 5vh;
-    width: 80vw;
-  }
-  #printing {
-    background-size: 40%;
-    background-position-x: 95%;
-    background-position-y: 85%;
-  }
-  #printing #tex3d {
-    margin-left: 10vw;
-    padding-left: 2%;
-    padding-bottom: 2%;
-    position: relative;
-    top: 5vh;
-    width: 80vw;
-    padding: 2rem;
-  }
-  #printing img {
-    position: relative;
-    left: 38vw;
-    top: 17vh;
-  }
-  /*Web programming*/
-  #arduino_Stuff p,
-  #web_Programming p {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
-  #arduino_Stuff img,
-  #web_Programming img {
-    height: 10rem;
-  }
-  #arduino_Stuff .container,
-  #web_Programming .container {
-    padding: 5%;
-  }
-  #arduino_Stuff img {
-    height: 5rem;
-  }
-  .github {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    max-width: 14rem;
-    -webkit-animation: ring 1s infinite alternate;
-    animation: ring 1s infinite alternate;
-  }
-  @-webkit-keyframes ring {
-    0% {
-      width: 9rem;
-      height: 9rem;
-      opacity: 1;
-    }
-  }
-  @keyframes ring {
-    0% {
-      width: 9rem;
-      height: 9rem;
-      opacity: 1;
-    }
-  }
-  /* Contact Section */
-  .headingLast {
-    width: 100%;
-  }
-  .heading {
-    height: 11vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  .field {
-    background-color: #ffffff;
-    width: 100%;
-    font-size: 2rem;
-  }
-  .submit {
-    width: 100%;
-  }
-  .content .regularText {
-    font-size: 2rem;
-  }
-  .content .forma {
-    font-size: 1rem;
-    margin-top: 0;
-    width: 100%;
-    height: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-  footer {
-    height: 30vh;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  footer .profi-widget {
-    display: none;
-  }
-  .forma {
-    margin-top: 0;
-  }
-  .awards {
-    font-size: 2rem;
-    width: 40vw;
-    margin-left: 30%;
-    margin-top: 15%;
-    display: none;
-  }
-  #logo {
-    display: none;
-    position: absolute;
+@media only screen and (max-width: 800px) {
+  .main-head {
+    height: 12vh;
   }
 }
 /*# sourceMappingURL=styleAboutMe.css.map */

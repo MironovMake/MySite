@@ -5,7 +5,17 @@
 /* nav*/
 $one: rgb(30, 184, 255);
 $two: #00225f;
-
+.main-head {
+  height: 12vh;
+  background-image: linear-gradient(to bottom left, $two, $one);
+  color: rgb(255, 249, 249);
+  position: sticky;
+  top: 0px;
+  z-index: 6;
+  h1 {
+    font-size: 2.5rem;
+  }
+}
 @include header1($two, $one);
 @include heading1($two, $one);
 .translate {
