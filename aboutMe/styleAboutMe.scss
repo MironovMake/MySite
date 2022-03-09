@@ -1,6 +1,36 @@
 @import "../styles/genegalStuff";
 @import "../styles/fonts";
-@import "nav";
+
+.home-page {
+  display: block;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+#logo {
+  display: flex;
+  flex: 2 1 40rem;
+  align-items: center;
+}
 
 /* nav*/
 $one: rgb(30, 184, 255);
@@ -16,9 +46,12 @@ $two: #00225f;
     font-size: 2.5rem;
   }
 }
-@include header1($two, $one);
-@include heading1($two, $one);
-
+.heading1 {
+  background-image: linear-gradient(to top left, $two, $one);
+  text-align: center;
+  padding: 2%;
+  color: rgb(255, 249, 249);
+}
 .translate {
   background: none;
   border: none;

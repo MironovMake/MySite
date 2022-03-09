@@ -91,21 +91,6 @@ nav ul {
   font-size: 2.5rem;
 }
 
-.header1 {
-  height: 10vh;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
-  background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
-  color: #fff9f9;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  z-index: 6;
-}
-
-.header1 h1 {
-  font-size: 2.5rem;
-}
-
 .heading1 {
   background-image: -webkit-gradient(linear, right bottom, left top, from(#00225f), to(#1eb8ff));
   background-image: linear-gradient(to top left, #00225f, #1eb8ff);
