@@ -78,8 +78,8 @@ nav ul {
 /* nav*/
 .main-head {
   height: 11vh;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#4c6ca7), to(#00da91));
-  background-image: linear-gradient(to bottom left, #4c6ca7, #00da91);
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
+  background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
   color: #fff9f9;
   position: -webkit-sticky;
   position: sticky;
@@ -92,6 +92,15 @@ nav ul {
 }
 
 .heading1 {
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#00225f), to(#1eb8ff));
+  background-image: linear-gradient(to top left, #00225f, #1eb8ff);
+  text-align: center;
+  padding: 2%;
+  color: #fff9f9;
+  margin-bottom: 5%;
+}
+
+.headingLast {
   background-image: -webkit-gradient(linear, right bottom, left top, from(#00225f), to(#1eb8ff));
   background-image: linear-gradient(to top left, #00225f, #1eb8ff);
   text-align: center;
@@ -359,7 +368,7 @@ img {
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   left: 100%;
-  bottom: 85%;
+  bottom: 91%;
 }
 
 /* Add a pointer when hovering over the thumbnail images */

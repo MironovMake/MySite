@@ -56,7 +56,7 @@ $one: rgb(30, 184, 255);
 $two: #00225f;
 .main-head {
   height: 11vh;
-  background-image: linear-gradient(to bottom left, #4c6ca7, rgb(0, 218, 145));
+  background-image: linear-gradient(to bottom left, #00225f, rgb(30, 184, 255));
   color: rgb(255, 249, 249);
   position: sticky;
   top: 0px;
@@ -66,6 +66,13 @@ $two: #00225f;
   }
 }
 .heading1 {
+  background-image: linear-gradient(to top left, $two, $one);
+  text-align: center;
+  padding: 2%;
+  color: rgb(255, 249, 249);
+  margin-bottom: 5%;
+}
+.headingLast {
   background-image: linear-gradient(to top left, $two, $one);
   text-align: center;
   padding: 2%;
@@ -275,7 +282,7 @@ img {
   position: relative;
   transform: translateX(-100%);
   left: 100%;
-  bottom: 85%;
+  bottom: 91%;
 }
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
