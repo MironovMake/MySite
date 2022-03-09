@@ -190,10 +190,10 @@ img {
     height: 35vh;
   }
   h2 {
-    padding-top: 34vh;
+    padding-top: 64vh;
   }
   section {
-    height: 110vh;
+    height: auto;
   }
 }
 /*# sourceMappingURL=SheduleStlyle.css.map */
