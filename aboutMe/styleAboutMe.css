@@ -330,9 +330,10 @@ section {
 }
 
 .content .forma {
+  margin-top: 5rem;
   padding: 2%;
   height: 50vh;
-  width: 100%;
+  width: 50vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -674,14 +675,6 @@ img {
   footer .profi-widget {
     display: none;
   }
-  .DispALsa {
-    position: absolute;
-    display: none;
-    height: 0px;
-  }
-  .DispALsa p {
-    color: black;
-  }
   .forma {
     margin-top: 0;
   }
@@ -693,7 +686,7 @@ img {
     display: none;
   }
   .main-head {
-    height: 14vh;
+    height: 12vh;
   }
   #logo {
     display: none;

@@ -4,9 +4,7 @@
   .grid-container-schedule {
     grid-template-columns: 20% 75% auto;
   }
-  .content {
-    height: auto;
-  }
+
   .home-page {
     display: none;
   }
@@ -18,18 +16,21 @@
   img {
     width: 98%;
     height: auto;
-    margin: 0;
-    padding: 0;
   }
 
   .cards-2 {
     max-width: 500;
-    margin: auto auto;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
   footer {
     height: 35vh;
+  }
+  h2 {
+    padding-top: 34vh;
+  }
+  section {
+    height: 110vh;
   }
 }
