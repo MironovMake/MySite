@@ -648,9 +648,6 @@ img {
   .submit {
     width: 80vw;
   }
-  li {
-    padding-bottom: 1rem;
-  }
   .content .regularText {
     font-size: 2rem;
   }
@@ -698,6 +695,9 @@ img {
     margin-left: 30%;
     margin-top: 15%;
     display: none;
+  }
+  li {
+    padding-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=styleAboutMe.css.map */
