@@ -77,7 +77,7 @@ nav ul {
 
 /* nav*/
 .main-head {
-  height: 12vh;
+  height: 11vh;
   background-image: -webkit-gradient(linear, right top, left bottom, from(#00225f), to(#1eb8ff));
   background-image: linear-gradient(to bottom left, #00225f, #1eb8ff);
   color: #fff9f9;
