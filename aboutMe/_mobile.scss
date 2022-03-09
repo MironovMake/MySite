@@ -1,5 +1,141 @@
-@media only screen and (max-width: 800px) {
-  .main-head {
-    height: 12vh;
+@media only screen and (max-width: 1000px) {
+  section {
+    height: 70vh;
+  }
+  .All-site {
+    scroll-snap-type: none;
+    overflow-y: none;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  #physic {
+    h1 {
+      width: 80vw;
+      height: auto;
+      position: relative;
+      top: 5vh;
+      left: 10vw;
+    }
+    p {
+      margin-left: 10vw;
+      padding-left: 2%;
+      position: relative;
+      top: 5vh;
+      width: 80vw;
+    }
+  }
+  #printing {
+    background-size: 40%;
+    background-position-x: 95%;
+    background-position-y: 85%;
+    #tex3d {
+      margin-left: 10vw;
+      padding-left: 2%;
+      padding-bottom: 2%;
+      position: relative;
+      top: 5vh;
+      width: 80vw;
+      padding: 2rem;
+    }
+    img {
+      position: relative;
+      left: 38vw;
+      top: 17vh;
+    }
+  }
+  /*Web programming*/
+  #arduino_Stuff,
+  #web_Programming {
+    p {
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+    img {
+      height: 10rem;
+    }
+    .container {
+      padding: 5%;
+    }
+  }
+  #arduino_Stuff {
+    img {
+      height: 5rem;
+    }
+  }
+
+  .github {
+    justify-content: center;
+    max-width: 14rem;
+    animation: ring 1s infinite alternate;
+  }
+  @keyframes ring {
+    0% {
+      width: 9rem;
+      height: 9rem;
+      opacity: 1;
+    }
+  }
+
+  /* Contact Section */
+  .headingLast {
+    width: 100%;
+  }
+  .heading {
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .field {
+    background-color: #ffffff;
+    width: 100%;
+
+    font-size: 2rem;
+  }
+  .submit {
+    width: 100%;
+  }
+
+  .content {
+    .regularText {
+      font-size: 2rem;
+    }
+    .forma {
+      font-size: 1rem;
+      margin-top: 0;
+      width: 100%;
+      height: 80%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  footer {
+    height: 30vh;
+    justify-content: space-evenly;
+    align-items: center;
+    .profi-widget {
+      display: none;
+    }
+  }
+
+  .forma {
+    margin-top: 0;
+  }
+  .awards {
+    font-size: 2rem;
+    width: 40vw;
+    margin-left: 30%;
+    margin-top: 15%;
+    display: none;
+  }
+
+  #logo {
+    display: none;
+    position: absolute;
   }
 }
