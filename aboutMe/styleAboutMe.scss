@@ -18,6 +18,7 @@ $two: #00225f;
 }
 @include header1($two, $one);
 @include heading1($two, $one);
+
 .translate {
   background: none;
   border: none;
