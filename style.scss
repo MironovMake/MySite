@@ -1,0 +1,143 @@
+// general
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+p,
+a {
+  font-size: 2rem;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+//variables
+$one: rgb(255, 102, 0);
+$two: #800000;
+
+// header
+header {
+  height: 10vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom left, $two, $one);
+  display: flex;
+  color: aliceblue;
+}
+nav {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+#logo {
+  display: flex;
+  flex: 2 1 40rem;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 75vh;
+}
+.grid-container-schedule {
+  display: grid;
+  position: relative;
+  grid-template-columns: 75px 490px 40px;
+}
+
+img {
+  height: 60vh;
+  width: auto;
+}
+footer {
+  background-image: linear-gradient(to bottom left, $two, $one);
+  height: 15vh;
+}
+.fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  font-size: 30px;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom left, $two, $one);
+  margin-top: 20px;
+  color: whites;
+  border: 3px solid;
+  border-color: white;
+  border-radius: 1.8rem;
+  box-shadow: 1rem;
+  box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3),
+    10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+  .header {
+    padding: 1rem;
+  }
+  .grid-container-schedule {
+    grid-template-columns: 20% 75% auto;
+  }
+  section {
+    height: auto;
+  }
+
+  .cards {
+    padding: 13px;
+    margin: 0;
+    height: 95vh;
+  }
+
+  img {
+    width: 98%;
+    height: auto;
+  }
+
+  .cards-2 {
+    max-width: 500;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  footer {
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  /*   For mobile:*/
+  #logo {
+    display: none;
+  }
+  .fab {
+    font-size: 20px;
+    width: 5rem;
+    height: 5rem;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
