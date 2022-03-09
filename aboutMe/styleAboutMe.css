@@ -479,9 +479,6 @@ img {
 }
 
 @media only screen and (max-width: 800px) {
-  .home-page {
-    display: none;
-  }
   section {
     height: 70vh;
   }
@@ -513,7 +510,7 @@ img {
   #printing {
     background-size: 40%;
     background-position-x: 95%;
-    background-position-y: 80%;
+    background-position-y: 85%;
   }
   #printing #tex3d {
     margin-left: 10vw;
