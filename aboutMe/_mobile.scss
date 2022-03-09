@@ -88,7 +88,7 @@
     width: 100%;
   }
   .heading {
-    height: 10vh;
+    height: 11vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,8 +139,6 @@
 
   #logo {
     display: none;
-  }
-  .main-head {
-    padding: 1rem;
+    position: absolute;
   }
 }
