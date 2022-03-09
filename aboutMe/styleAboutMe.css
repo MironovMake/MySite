@@ -332,7 +332,7 @@ section {
 .content .forma {
   padding: 2%;
   height: 50vh;
-  width: 50vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
