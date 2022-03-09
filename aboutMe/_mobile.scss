@@ -10,7 +10,7 @@
     overflow-y: none;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   p {
     font-size: 1.4rem;
@@ -145,6 +145,9 @@
     display: none;
   }
   .main-head {
-    height: 18vh;
+    height: 14vh;
+  }
+  #logo {
+    display: none;
   }
 }
