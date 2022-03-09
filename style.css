@@ -137,7 +137,13 @@ footer {
 @media only screen and (max-width: 800px) {
   /*   For mobile:*/
   .header {
-    height: 14vh;
+    height: 16vh;
+  }
+  h1 {
+    display: none;
+  }
+  li a {
+    font-size: 1.5rem;
   }
   .grid-container-schedule {
     -ms-grid-columns: 20% 75% auto;
