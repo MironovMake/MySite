@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -15,7 +15,13 @@ body {
 
 header {
   height: 10vh;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(#800000),
+    to(#ff6600)
+  );
   background-image: linear-gradient(to bottom left, #800000, #ff6600);
   color: #fff9f9;
   position: -webkit-sticky;
@@ -48,7 +54,7 @@ nav {
   margin: auto;
   height: 10vh;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 nav ul {
@@ -56,13 +62,13 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   list-style-type: none;
 }
 
@@ -71,15 +77,21 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-flex: 2;
-      -ms-flex: 2 1 40rem;
-          flex: 2 1 40rem;
+  -ms-flex: 2 1 40rem;
+  flex: 2 1 40rem;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .heading {
-  background-image: -webkit-gradient(linear, right bottom, left top, from(#800000), to(#ff6600));
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    from(#800000),
+    to(#ff6600)
+  );
   background-image: linear-gradient(to top left, #800000, #ff6600);
   text-align: center;
   padding: 2%;
@@ -94,7 +106,13 @@ nav ul {
   text-align: center;
   text-decoration: none;
   margin: auto;
-  background-image: -webkit-gradient(linear, right top, left bottom, from(#800000), to(#ff6600));
+  background-image: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(#800000),
+    to(#ff6600)
+  );
   background-image: linear-gradient(to bottom left, #800000, #ff6600);
   margin-top: 20px;
   color: whites;
@@ -102,13 +120,21 @@ nav ul {
   border-color: white;
   border-radius: 1.8rem;
   -webkit-box-shadow: 1rem;
-          box-shadow: 1rem;
-  -webkit-box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
-          box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3), 10px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 1rem;
+  -webkit-box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3),
+    10px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3),
+    10px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#800000), to(#ff6600));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#800000),
+    to(#ff6600)
+  );
   background-image: linear-gradient(to bottom right, #800000, #ff6600);
   height: 20vh;
   text-align: center;
@@ -131,13 +157,13 @@ section {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .grid-container-schedule {
@@ -145,7 +171,7 @@ section {
   display: grid;
   position: relative;
   -ms-grid-columns: 75px 490px 40px;
-      grid-template-columns: 75px 490px 40px;
+  grid-template-columns: 75px 490px 40px;
 }
 
 img {
@@ -158,7 +184,7 @@ img {
   /*   For mobile:*/
   .grid-container-schedule {
     -ms-grid-columns: 20% 75% auto;
-        grid-template-columns: 20% 75% auto;
+    grid-template-columns: 20% 75% auto;
   }
   section {
     height: auto;
@@ -179,11 +205,14 @@ img {
     display: -ms-grid;
     display: grid;
     grid-gap: 2rem;
-    -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    -ms-grid-columns: (minmax(400px, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
   footer {
     height: 35vh;
+  }
+  .header1 {
+    height: 11vh;
   }
 }
 /*# sourceMappingURL=SheduleStlyle.css.map */
