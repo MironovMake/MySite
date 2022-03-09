@@ -149,7 +149,7 @@ footer {
   .cards {
     padding: 13px;
     margin: 0;
-    height: 125vh;
+    height: auto;
   }
   img {
     width: 98%;
