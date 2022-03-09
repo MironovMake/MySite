@@ -648,6 +648,9 @@ img {
   .submit {
     width: 80vw;
   }
+  li {
+    padding-bottom: 1rem;
+  }
   .content .regularText {
     font-size: 2rem;
   }
