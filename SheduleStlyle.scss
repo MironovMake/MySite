@@ -1,17 +1,15 @@
 @import "./styles/genegalStuff";
-@import "./styles/nav";
+@import "styles/nav";
 
 h2 {
   padding-left: 15%;
   position: relative;
   top: 5%;
 }
-
 section {
   height: 70vh;
 }
 .cards {
-  padding-top: 15%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -20,16 +18,10 @@ section {
 .grid-container-schedule {
   display: grid;
   position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-80%);
   grid-template-columns: 75px 490px 40px;
 }
 img {
   position: relative;
-  top: 55%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   height: 60vh;
   width: auto;
 }

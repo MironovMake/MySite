@@ -4,7 +4,9 @@
   .grid-container-schedule {
     grid-template-columns: 20% 75% auto;
   }
-
+  section {
+    height: auto;
+  }
   .home-page {
     display: none;
   }
@@ -26,11 +28,5 @@
   }
   footer {
     height: 35vh;
-  }
-  h2 {
-    padding-top: 64vh;
-  }
-  section {
-    height: auto;
   }
 }

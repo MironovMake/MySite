@@ -127,7 +127,6 @@ section {
 }
 
 .cards {
-  padding-top: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,18 +144,12 @@ section {
   display: -ms-grid;
   display: grid;
   position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-80%);
-          transform: translateY(-80%);
   -ms-grid-columns: 75px 490px 40px;
       grid-template-columns: 75px 490px 40px;
 }
 
 img {
   position: relative;
-  top: 55%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   height: 60vh;
   width: auto;
 }
@@ -166,6 +159,9 @@ img {
   .grid-container-schedule {
     -ms-grid-columns: 20% 75% auto;
         grid-template-columns: 20% 75% auto;
+  }
+  section {
+    height: auto;
   }
   .home-page {
     display: none;
@@ -188,12 +184,6 @@ img {
   }
   footer {
     height: 35vh;
-  }
-  h2 {
-    padding-top: 64vh;
-  }
-  section {
-    height: auto;
   }
 }
 /*# sourceMappingURL=SheduleStlyle.css.map */
