@@ -749,5 +749,8 @@ img {
   #logo {
     display: none;
   }
+  .header1 {
+    height: 11vh;
+  }
 }
 /*# sourceMappingURL=styleAboutMe.css.map */
