@@ -83,6 +83,7 @@
   /* Contact Section */
   .headingLast {
     width: 100%;
+    padding-top: 8%;
   }
   .heading {
     height: 11vh;
@@ -140,8 +141,7 @@
 
   // gallery styles
   .container1 {
-    margin-left: 5%;
-    width: 100%;
+    width: 100vw;
     height: 70vh;
     background: none;
     img {
