@@ -22,7 +22,7 @@ h2 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .home-page {
@@ -32,7 +32,7 @@ p {
 a {
   color: #fff;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 nav {
@@ -73,6 +73,7 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 4rem;
 }
 
 /* nav*/
@@ -499,6 +500,11 @@ img {
   h1 {
     font-size: 1.8rem;
   }
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+  }
   p {
     font-size: 1.4rem;
   }
@@ -643,7 +649,7 @@ img {
     position: absolute;
   }
   .container1 {
-    width: 100vw;
+    width: 99vw;
     height: 70vh;
     background: none;
     position: absolute;
