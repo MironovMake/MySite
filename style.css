@@ -33,6 +33,10 @@ header {
   display: -ms-flexbox;
   display: flex;
   color: aliceblue;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 
 nav {

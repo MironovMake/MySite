@@ -31,6 +31,9 @@ header {
   background-image: linear-gradient(to bottom left, $two, $one);
   display: flex;
   color: aliceblue;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
 }
 nav {
   font-family: "Roboto", sans-serif;
