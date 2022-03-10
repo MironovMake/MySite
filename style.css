@@ -140,6 +140,10 @@ footer {
 
 @media only screen and (max-width: 800px) {
   /*   For mobile:*/
+  #logo {
+    display: none;
+    position: absolute;
+  }
   .header {
     height: 16vh;
   }
@@ -182,6 +186,7 @@ footer {
   /*   For mobile:*/
   #logo {
     display: none;
+    position: absolute;
   }
   .fab {
     font-size: 20px;
