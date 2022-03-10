@@ -83,7 +83,7 @@
   /* Contact Section */
   .headingLast {
     width: 100%;
-    padding-top: 8%;
+    padding-top: 13%;
   }
   .heading {
     height: 11vh;
@@ -146,7 +146,7 @@
     background: none;
     img {
       height: 60vh;
-      width: 100vw;
+      width: 100%;
       object-fit: cover;
     }
     position: absolute;
@@ -159,7 +159,9 @@
   /* Position the image container (needed to position the left and right arrows) */
 
   /* Hide the images by default */
-
+  .caption-container {
+    display: none;
+  }
   #CloseAwards {
     background-image: url("img/close.png");
     width: 32px;
@@ -167,9 +169,11 @@
     background-position: center;
     background-size: cover;
     position: absolute;
+    z-index: 4;
     //    transform: translateY(100%);
     transform: translate(-100%);
     top: 25%;
+    left: 87%;
   }
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
@@ -197,6 +201,7 @@
   .next {
     right: 3rem;
     border-radius: 3px 0 0 3px;
+    right: 15vw;
   }
 
   /* On hover, add a black background color with a little bit see-through */
