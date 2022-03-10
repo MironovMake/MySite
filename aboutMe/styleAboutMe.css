@@ -661,7 +661,6 @@ img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    margin-left: 2vw;
   }
   .demo {
     display: none;
