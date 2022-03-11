@@ -210,22 +210,6 @@ section {
   display: flex;
 }
 
-#web_Programming .DispALsa {
-  padding-top: 2rem;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-
 .github {
   max-width: 14rem;
   -webkit-animation: ring 1s infinite alternate;
@@ -635,6 +619,36 @@ img {
     margin-left: 30%;
     margin-top: 15%;
   }
+  #web_Programming {
+    height: 89.3vh;
+  }
+  #web_Programming img {
+    height: 13rem;
+  }
+  #web_Programming p {
+    padding: 5% 10% 0px 10%;
+  }
+  #web_Programming .iconsSkils {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    padding-left: 2.5%;
+    width: 99%;
+  }
+  #web_Programming .iconsSkils div {
+    width: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   #logo {
     display: none;
     position: absolute;
@@ -714,7 +728,7 @@ img {
   .next {
     right: 3rem;
     border-radius: 3px 0 0 3px;
-    right: 15vw;
+    right: 0vw;
   }
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
