@@ -151,7 +151,7 @@ footer {
     display: none;
   }
   li a {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .grid-container-schedule {
     -ms-grid-columns: 20% 75% auto;
