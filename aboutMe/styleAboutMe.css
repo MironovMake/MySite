@@ -626,7 +626,7 @@ img {
     height: 10rem;
   }
   #web_Programming p {
-    padding: 5% 10% 0px 10%;
+    padding: 0% 10% 0px 10%;
   }
   #web_Programming .iconsSkils {
     display: -webkit-box;
@@ -644,7 +644,7 @@ img {
     width: 99%;
   }
   #web_Programming .iconsSkils div {
-    width: 15rem;
+    width: 10rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
