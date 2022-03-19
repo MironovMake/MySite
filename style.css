@@ -154,6 +154,7 @@ footer {
     font-size: 2rem;
   }
   .grid-container-schedule {
+    width: 93vw;
     -ms-grid-columns: 20% 75% auto;
         grid-template-columns: 20% 75% auto;
   }
@@ -161,21 +162,27 @@ footer {
     height: auto;
   }
   .cards {
-    padding: 13px;
     margin: 0;
+    padding: 13px;
     height: auto;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
   }
   img {
     width: 98%;
     height: auto;
   }
   .cards-2 {
-    max-width: 500;
+    max-width: 700;
     display: -ms-grid;
     display: grid;
     grid-gap: 2rem;
-    -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    -ms-grid-columns: (minmax(600px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   }
   footer {
     height: 35vh;

@@ -113,6 +113,7 @@ footer {
     }
   }
   .grid-container-schedule {
+    width: 93vw;
     grid-template-columns: 20% 75% auto;
   }
   section {
@@ -120,9 +121,11 @@ footer {
   }
 
   .cards {
-    padding: 13px;
     margin: 0;
+    padding: 13px;
     height: auto;
+    justify-content: left;
+    align-items: left;
   }
 
   img {
@@ -131,10 +134,10 @@ footer {
   }
 
   .cards-2 {
-    max-width: 500;
+    max-width: 700;
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   }
   footer {
     height: 35vh;
