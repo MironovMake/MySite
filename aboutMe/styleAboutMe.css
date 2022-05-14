@@ -722,6 +722,7 @@ img {
     -moz-user-select: none;
      -ms-user-select: none;
          user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-user-select: none;
   }
   /* Position the "next button" to the right */

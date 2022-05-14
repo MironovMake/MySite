@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p,
+a {
+  font-size: 3rem;
+  color: #114069;
+  text-decoration: none;
+}
+
+.box {
+  background: #0079ff;
+  background: -webkit-gradient(linear, left top, right top, from(#0079ff), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(90deg, #0079ff 0%, rgba(0, 212, 255, 0) 100%);
+  margin-left: 15%;
+  width: 85%;
+  padding: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box1 {
+  background: #015cc1;
+  background: -webkit-gradient(linear, left top, right top, from(#015cc1), to(rgba(0, 212, 255, 0)));
+  background: linear-gradient(90deg, #015cc1 0%, rgba(0, 212, 255, 0) 100%);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 5rem;
+}
+
+iframe {
+  width: 15%;
+}
+
+.headerContent {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2rem;
+  position: absolute;
+  width: 15%;
+  height: 105%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=musicStyle.css.map */
