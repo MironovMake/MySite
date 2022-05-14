@@ -76,4 +76,18 @@ iframe {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
+
+@media only screen and (max-width: 900px) {
+  .headerContent {
+    display: none;
+    width: 0%;
+  }
+  .box {
+    margin-left: 0%;
+    width: 100%;
+  }
+  iframe {
+    width: 19%;
+  }
+}
 /*# sourceMappingURL=musicStyle.css.map */
