@@ -75,13 +75,10 @@ iframe {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  z-index: -2;
 }
 
 @media only screen and (max-width: 1000px) {
-  .headerContent {
-    display: none;
-    width: 0%;
-  }
   .box {
     margin-left: 0%;
     width: 100%;
