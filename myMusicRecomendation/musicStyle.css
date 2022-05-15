@@ -63,7 +63,7 @@ iframe {
   padding-left: 2rem;
   position: absolute;
   width: 15%;
-  height: 1050px;
+  height: 1070px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,13 +78,26 @@ iframe {
   z-index: -2;
 }
 
+.forMobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1000px) {
+  .forMobile {
+    display: block;
+    text-align: center;
+  }
+  .headerContent {
+    display: none;
+  }
   .box {
     margin-left: 0%;
     width: 100%;
   }
   iframe {
-    width: 19%;
+    margin-left: 10%;
+    height: 35vh;
+    width: 80%;
   }
 }
 /*# sourceMappingURL=musicStyle.css.map */
